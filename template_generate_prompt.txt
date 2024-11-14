@@ -1,0 +1,11 @@
+Stwórz pusty szablon HTML do wyświetlania artykułu w języku polskim. Szablon powinien zawierać:
+
+Tag <html> z atrybutem lang="pl".
+Sekcję <head>, w której ustawione są:
+kodowanie UTF-8,
+odpowiednia konfiguracja viewport dla urządzeń mobilnych,
+tytuł "Podgląd artykułu".
+Połącz z biblioteką Bootstrap w wersji 5.1.3 z CDN, dodając odpowiedni link w <head>.
+Dodaj style CSS, aby tekst miał styl: font Arial, sans-serif, z marginesami 20px, nagłówki <h1> w kolorze #333, obrazki w <img> mają maksymalną szerokość 100% i margines 20px, a podpisy <figcaption> są wyśrodkowane i w stylu kursywy.
+Sekcja <body> powinna być pusta, przygotowana do wklejenia treści artykułu.
+Wynikowy kod HTML nie powinien zawierać niczego w <body>, tylko styl i strukturę, o które proszę.

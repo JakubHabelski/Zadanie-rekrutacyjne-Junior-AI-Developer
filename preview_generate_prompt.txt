@@ -1,0 +1,21 @@
+Stwórz plik HTML o nazwie Podgląd.html zgodny z poniższymi wytycznymi:
+
+Dokument HTML powinien zawierać:
+
+Deklarację <!DOCTYPE html>.
+Tag <html> z atrybutem lang="pl".
+Sekcję <head> zawierającą:
+Ustawienie kodowania UTF-8 za pomocą <meta charset="UTF-8">.
+Konfigurację viewport dla urządzeń mobilnych: <meta name="viewport" content="width=device-width, initial-scale=1">.
+Tytuł strony jako "Podgląd artykułu".
+Łącze do biblioteki Bootstrap w wersji 5.1.3 za pomocą CDN.
+Sekcję <style> ustawiającą:
+Czcionkę Arial, sans-serif z marginesami 20px dla elementu <body>.
+Kolor nagłówków <h1> na #333.
+Maksymalną szerokość obrazków <img> na 100% z marginesem 20px.
+Styl dla <figcaption>, który wyśrodkowuje tekst i nadaje mu kursywę.
+Sekcja <body> powinna być pusta, a jej zawartość powinna zostać załadowana dynamicznie za pomocą JavaScript:
+
+Stwórz skrypt JavaScript, który asynchronicznie wczyta zawartość pliku artykul.html i wstawi go do <body>.
+Skrypt powinien używać fetch(), by pobrać zawartość artykul.html.
+Jeśli pobieranie zawiedzie, dodaj komunikat o błędzie w konsoli oraz alternatywny tekst w <body>, np. "Błąd podczas ładowania artykułu. Proszę spróbować ponownie."
